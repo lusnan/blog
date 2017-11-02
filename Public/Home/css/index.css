@@ -1,0 +1,374 @@
+@charset "utf-8";
+a{
+	cursor: pointer;
+	text-decoration: none;	
+}
+/*去除谷歌浏览器input框的屎黄色问题*/
+input:-webkit-autofill, 
+ textarea:-webkit-autofill, 
+ select:-webkit-autofill { 
+       -webkit-box-shadow: 0 0 0 1000px white inset; 
+}
+ input[type=text]:focus,  input[type=email]:focus,input[type=password]:focus, textarea:focus {
+      -webkit-box-shadow: 0 0 0 1000px white inset; 
+}
+
+
+/*内容部分样式*/
+.content-part{
+	margin-top: 80px;
+
+}
+
+/*左侧栏样式*/
+.left{
+	height: 2000px;
+}
+.left .myinfo{
+	background-color: rgba(69, 230, 196, 0.07);
+	height:420px;
+	margin-bottom: 50px;
+	text-align:center;
+	border-right: 1px solid #825c63;
+	border-bottom: 1px solid #6a706d;
+}
+
+.myinfo img{
+	width: 150px;
+	margin-top:30px;
+}
+.myinfo img:hover{
+	width: 200px;
+}
+.myinfo h4{
+	font-weight: 700;
+	margin-top:10px;
+	margin-bottom: 10px;
+}
+.radius-circle{
+	border-radius:50%;
+}
+
+.list-group .badge{
+	background: red;
+}
+
+.left .fresh{
+	margin-top: 10px;
+	float: right;
+	margin-right: 10px;
+}
+
+.fresh a:hover{
+	color: red;
+}
+
+.list-group-item p{
+	display: block;
+	float: left;
+	height: 20px;
+	width: 200px;
+	overflow: hidden;
+}
+
+
+/*登陆列表样式*/
+.allcont{
+	margin-top: 100px;
+	margin-left: 80px;
+	width: 450px;
+	height: 500px;
+	background-color: #272626;
+}
+
+.allcont h2, .checkbox {
+	color: #FFFFFF;
+}
+.allcont .close{
+	color: #FFFFFF;
+}
+
+.allcont .signup-form ,
+.allcont .login-form{
+	width: 300px;
+	margin-top: 20px;
+	margin-left: 5px;
+}
+.form-login .checkbox{
+	margin-top: 30px;
+	margin-left: 5px;
+}
+.submitf{
+	margin-top: 30px;
+	margin-bottom: 50px;
+	margin-left: 5px;
+}
+.wantlog{
+	color: #BDF21F;
+}
+.wantlog:hover{
+	color: #EAE8E8;
+}
+/*注册列表样式*/
+.allcont .yzm{
+	width: 100px;
+}
+.allcont .code_img{
+	width: 100px;
+	height: 35px;
+	margin-top: 18px;
+}
+
+/*右侧*/
+.breadcrumb{
+	font-weight: 800;
+}
+.right .jumbotron{
+	background-color: rgba(160, 230, 51, 0.07);
+	padding-bottom: 15px;
+	padding-top: 15px;
+	border-bottom:3px solid #d8d8d8;
+	color : #121212;
+
+}
+.rightc-head{
+	border-bottom: 1px solid #222121;
+}
+.rightc-head a{
+	color: #0999A4;
+	font-size: 20px;
+	text-decoration: none;
+}
+.jumtop{
+	height: 150px;
+}
+.jumbotron .arttitle{
+	font-size: 25px;
+	font-weight: 600;
+	margin-bottom: 10px;
+}
+
+.jumbotron .forallc{
+	font-size: 10px;
+	text-align: center;
+	background-color: #A4F9D4;
+	border-radius: 5px;	
+}
+
+.forallc a{
+	text-decoration: none;
+	color: #2E2C2C	
+}
+
+.forallc a:hover{
+	color: white;
+}
+
+.right .bottom{
+	margin-top: 30px;
+}
+.bottom {
+	font-weight: 600;
+}
+
+.thumb img{
+	width: 150px;
+}
+
+.zan{
+	cursor: pointer;
+}
+
+
+
+/*分页样式*/
+.b-page {
+  background: #fff;
+  box-shadow: 0px 1px 2px 0px #E2E2E2;
+}
+.page {
+  width: 100%;
+  padding: 30px 15px;
+  background: #FFF;
+  text-align: center;
+  overflow: hidden;
+}
+.page .first,
+.page .prev,
+.page .current,
+.page .num,
+.page .current,
+.page .next,
+.page .end {
+  padding: 8px 16px;
+  margin: 0px 5px;
+  display: inline-block;
+  color: #008CBA;
+  border: 1px solid #F2F2F2;
+  border-radius: 5px;
+}
+.page .first:hover,
+.page .prev:hover,
+.page .current:hover,
+.page .num:hover,
+.page .current:hover,
+.page .next:hover,
+.page .end:hover {
+  text-decoration: none;
+  background: #F8F5F5;
+}
+.page .current {
+  background-color: #008CBA;
+  color: #FFF;
+  border-radius: 5px;
+  border: 1px solid #008CBA;
+}
+.page .current:hover {
+  text-decoration: none;
+  background: #008CBA;
+}
+.page .not-allowed {
+  cursor: not-allowed;
+}
+
+
+
+/*文章样式*/
+/*标题样式*/
+.arttop{
+	height:180px;
+	border:1px solid #EEEEEE ;
+	background-color: #FAFAFA;
+
+}
+.arttop h1{
+	display: block;
+	height: 110px;
+	padding-top: 5px;
+}
+.arttop .bottom{
+	color: #0ED636;
+}
+/*内容样式*/
+.artcon{
+	background-color:#FAFAFA;
+	margin-top: 30px; 
+}
+
+
+
+/*评论样式*/
+
+textarea{
+  box-shadow: none;
+  color: #999;
+  height: 150px;
+  margin: 0;
+  overflow: auto;
+  padding: 10px;
+  resize: none;
+  width: 80%;
+  margin-left:10px;
+}
+button {
+  margin-top:10px;
+  margin-left:85px;
+  font-size: 14px;
+  font-weight: bold;
+  height: 32px;
+  text-align: center;
+  text-shadow: 0 1px 0 #fff;
+  transition: all 0.15s linear 0s;
+  width: 100px;
+}
+.otherlink dl {
+  display:block;
+  width:100%;
+  height:65px;
+  padding:20px 0;
+  border-bottom:1px #DEDEDE solid;
+}
+.otherlink dt {
+  float:left;
+}
+.otherlink h3 {
+  color:#D23;
+}
+.otherlink h3,.otherlink p {
+  line-height:22px;
+  text-indent:10px;
+}
+.otherlink .msg {
+  color:#333;
+}
+.otherlink .addtime {
+  color:#999;
+}
+.logform input {
+  width:140px;
+  height:30px;
+}
+.otherlink li a {
+  color: #756f71 }
+.otherlink h2 {
+  border-bottom: #099 2px solid; 
+  line-height: 40px; font-size: 12px; 
+  padding-left: 40px; color: #099 
+}
+.otherlink ul { 
+  margin: 10px 0 
+}
+.otherlink li {
+  line-height: 24px; 
+  height: 24px; 
+  display: block; 
+  width: 290px; 
+  float: left; 
+  overflow: hidden; 
+  margin-right: 30px; 
+}
+.otherlink li a:hover, .nextinfo a:hover {
+  text-decoration: underline 
+}
+.subcom{
+	display: block;
+	margin-left: 10px;
+}
+
+
+.comlist h2{
+	display: block;
+	margin-top:50px;
+}
+
+.comlist .oncmt{
+	border-top: 1px solid #C8CEDC;
+}
+
+.oncmt img{
+	width: 70px;
+}
+.comlist .comleft{
+	margin-top: 10px;
+	float: left;
+	margin-left: 30px;
+	color: red;
+}
+.comlist .msg{
+	height: 80px;
+	margin-left:120px;
+	margin-top: 10px;
+	font-size: 16px;
+}
+.comlist .addtime{
+	float: right;
+	font-weight: 600;
+}
+
+
+
+
+/*脚部*/
+footer{
+	text-align: center;
+}
