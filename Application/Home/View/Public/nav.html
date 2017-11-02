@@ -1,0 +1,88 @@
+<!-- 顶部导航栏 -->
+<nav class="navbar navbar-fixed-top navbar-inverse">
+  <div class="container">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="{:U('Index/index')}">卢申南的博客</a>
+    </div>
+    <div id="navbar" class="collapse navbar-collapse">
+      <ul class="nav navbar-nav">
+        <li class="homepage active"><a href="{:U('Index/index')}"><span class="glyphicon glyphicon-home"></span>主页</a></li>
+        <volist name='cateinfo' id='row'>
+            <li><a  href="{:U('Index/category',array('cate_id'=>$row['cate_id']))}">{$row.cate_name}</a></li>
+        </volist>
+      </ul>
+      <ul class="nav navbar-nav navbar-right">
+        <!-- 用模态框制作登陆界面 -->
+        <li class="active login" data-toggle="modal" data-target="#login"><a>登陆</a></li>
+        <li class="user-info active"><a>{$Think.session.username}</a></li>
+        <li class='logout'><a>退出</a></li>
+      </ul>
+
+      <form class="navbar-form navbar-right" style="margin-right: 120px"
+      method="post" action="{:U('Index/search')}">
+        <input type="text" class="form-control" name='search' placeholder="Search..." value="{$statement}">
+      </form>
+
+    </div><!-- /.nav-collapse -->
+  </div><!-- /.container -->
+</nav><!-- /.navbar -->
+<!-- 顶部导航结束 -->
+
+<!-- 登陆模态框 -->
+<div class="modal fade" id="login" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content allcont">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                <div><h2 class="modal-title" id="myModalLabel">登陆</h2></div>
+            </div>
+            <form class="form-login" method="post" action="{:U('Public/checkLogin')}">
+                <label for="inputEmail" class="sr-only">用户名</label>
+                <input type="text" name='login-username' class="form-control login-form" placeholder="用户名" required autofocus>
+                <label for="inputPassword" class="sr-only">Password</label>
+                <input type="password" name='login-password' id="inputPassword" class="form-control login-form" placeholder="密码" required>
+                <div class="checkbox">
+                  <label>
+                    <input type="checkbox" value="remember-me">记住密码
+                  </label>
+                </div>
+                <button class="btn btn-default submitf loginbtn" type="submit">登陆</button>
+                <a href="" class="wantlog" data-toggle="modal" data-target="#signup">没有账号？现在注册</a>
+            </form>
+        </div><!-- /.modal-content -->
+    </div><!-- /.modal -->
+</div>
+
+<!-- 注册模态框 -->
+<div class="modal fade" id="signup" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content allcont">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                <div><h2 class="modal-title" id="myModalLabel">注册</h2></div>
+            </div>
+            <form class="form-signup">
+                <input type="text" name='username' class="form-control signup-form" placeholder="用户名" required>
+                <label for="inputEmail" class="sr-only">Email address</label>
+                <input type="email" name='email' id="inputEmail" class="form-control signup-form" placeholder="邮箱" required autofocus>
+                <label for="inputPassword" class="sr-only">Password</label>
+                <input type="password" name="password" id="inputPassword" class="form-control signup-form" placeholder="密码" required>
+                <div class="row">
+                    <div class="col-lg-4">
+                        <input type="text" name="captcha" class="form-control signup-form yzm" placeholder="输入验证码">
+                    </div>
+                    <img src="{:U('Index/captcha')}" class="code_img" onclick="this.src='{:U('Index/captcha',array('captcha'=>'Math.random()'))}">
+    
+                </div>
+                
+                <button class="btn btn-default submitf signupbtn">立即注册</button>
+            </form>
+        </div><!-- /.modal-content -->
+    </div><!-- /.modal -->
+</div>

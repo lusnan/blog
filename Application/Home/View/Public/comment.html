@@ -1,0 +1,38 @@
+<!-- 通用评论开始 -->
+<div class="col-xs-12 col-md-8 col-md-offset-2 downcom">
+<div class="otherlink">
+    <h2>发布评论</h2>
+</div>
+<form action="{:U('Article/comment')}" method="POST">
+    <textarea placeholder="说点什么吧…" title="Ctrl+Enter快捷提交" name="content"></textarea>
+    <input type="hidden" name="art_id" value="{$artinfo.art_id}">
+    <button type="submit" class="subcom">发布</button>
+</form>
+
+<div class="comlist">
+    <h2>评论列表</h2>
+    <volist name='cominfo' id='row'>
+    <div class="oncmt">
+      <div class="comleft">
+        <img  src='/Public/images/userpic.png'>
+        <h3>
+        {$row.cmt_user}
+        </h3>
+      </div>
+      <div>
+        
+        <p class='msg'>{$row.cmt_content}你睡地上分数段分数段复苏的费用核算电费递送方式丢防守对方</p>
+        <p class='addtime'>发布时间：{$row.cmt_time}</p>
+      </div>
+    </div>
+    <div style="clear: both;"></div>
+    </volist>
+       
+</div>
+</div>
+
+<div class="modal fade" id="nologin" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+    <span>请先登录</span>
+</div>
+
+<!-- 通用评论结束 -->

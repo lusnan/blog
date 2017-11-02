@@ -1,0 +1,42 @@
+<include file='Public/public'/>
+<div class="admin">
+	<form action="{:U('Comment/delmany')}" method="POST">
+    <div class="panel admin-panel">
+    	<div class="panel-head"><strong>评论列表</strong></div>
+        <div class="padding border-bottom">
+            <input type="button" class="button button-small checkall" name="checkall" checkfor="art_id[]" value="全选" />
+            <input type="submit" class="button button-small border-yellow"  value="批量删除" onclick=" return confirm('确认全部删除吗?')" />
+        </div>
+        <table class="table table-hover">
+        	<tr>
+                <th width="45">选择</th>
+                <th width="135">所属文章</th>
+                <th width="80">评论用户</th>
+                <th width="180">评论内容</th>
+                <th width="120">评论时间</th>
+                <th width="50">操作</th>
+            </tr>
+            <volist name='allcom' id='row'>
+                <tr>
+                <!-- name值应为数组形式，不然会被覆盖 -->
+                <td><input type="checkbox" name="art_id[]" value="" /></td>
+                <td>{$row.title|substr=0,50}</td>
+                <td>{$row.cmt_user}</td>
+                <td>{$row.cmt_content|substr=0,60}</td>
+                <td>{$row.cmt_time}</td>
+                <td>
+                    <a class="button border-yellow button-little" href="{:U('Comment/delete',array('cmt_id'=>$row['cmt_id']))}" onclick="return confirm('确认删除吗?')">删除</a>
+                </td>
+                </tr>
+            </volist>
+        </table>
+		<div class="panel-foot text-center">
+            {$showpage} 
+        </div>
+    </div>
+    </form>
+    <br />
+    <p class="text-right text-gray" style="float:right">我的博客</p>
+</div>
+</body>
+</html>

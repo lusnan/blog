@@ -1,0 +1,93 @@
+[ 2017-10-21T09:22:54+08:00 ] 127.0.0.1 /index.php/Admin/Index/checklogin
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000778s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001408s ]
+SQL: SHOW COLUMNS FROM `adminer` [ RunTime:0.0066s ]
+SQL: SELECT * FROM `adminer` WHERE ( adminer_name = 'admin'  ) LIMIT 1   [ RunTime:0.0005s ]
+NOTIC: [8] Undefined index: id C:\demo\lublog\Application\Admin\Controller\IndexController.class.php 第 80 行.
+
+[ 2017-10-21T09:22:55+08:00 ] 127.0.0.1 /index.php/Admin/restaurant/index.html
+ERR: 无法加载控制器:Restaurant
+
+[ 2017-10-21T09:30:38+08:00 ] 127.0.0.1 /index.php/Admin/restaurant/index.html
+ERR: 无法加载控制器:Restaurant
+
+[ 2017-10-21T10:13:17+08:00 ] 127.0.0.1 /index.php/Admin/Index/checklogin
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001350s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002311s ]
+
+[ 2017-10-21T10:18:11+08:00 ] 127.0.0.1 /index.php/Admin/Index/checklogin
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001602s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002192s ]
+
+[ 2017-10-21T11:56:16+08:00 ] 127.0.0.1 /index.php/Admin/Index/checklogin
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000766s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001346s ]
+
+[ 2017-10-21T11:56:26+08:00 ] 127.0.0.1 /index.php/Admin/Index/checklogin
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000789s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001378s ]
+SQL: SHOW COLUMNS FROM `adminer` [ RunTime:0.0830s ]
+SQL: SELECT * FROM `adminer` WHERE ( adminer_name = 'admin'  ) LIMIT 1   [ RunTime:0.0190s ]
+NOTIC: [8] Undefined index: id C:\demo\lublog\Application\Admin\Controller\IndexController.class.php 第 80 行.
+
+[ 2017-10-21T11:56:26+08:00 ] 127.0.0.1 /index.php/Admin/restaurant/index.html
+ERR: 无法加载控制器:Restaurant
+
+[ 2017-10-21T12:15:11+08:00 ] 127.0.0.1 /index.php/Admin/restaurant/index.html
+ERR: 无法加载控制器:Restaurant
+
+[ 2017-10-21T12:15:12+08:00 ] 127.0.0.1 /index.php/Admin/restaurant/index.html
+ERR: 无法加载控制器:Restaurant
+
+[ 2017-10-21T12:15:13+08:00 ] 127.0.0.1 /index.php/Admin/restaurant/index.html
+ERR: 无法加载控制器:Restaurant
+
+[ 2017-10-21T12:15:13+08:00 ] 127.0.0.1 /index.php/Admin/restaurant/index.html
+ERR: 无法加载控制器:Restaurant
+
+[ 2017-10-21T12:15:14+08:00 ] 127.0.0.1 /index.php/Admin/restaurant/index.html
+ERR: 无法加载控制器:Restaurant
+
+[ 2017-10-21T12:20:02+08:00 ] 127.0.0.1 /index.php/admin/Index/loginout
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001565s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002220s ]
+
+[ 2017-10-21T12:22:40+08:00 ] 127.0.0.1 /index.php/Admin/Index/checklogin
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001466s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002023s ]
+SQL: SHOW COLUMNS FROM `adminer` [ RunTime:0.0692s ]
+SQL: SELECT * FROM `adminer` WHERE ( adminer_name = 'admin'  ) LIMIT 1   [ RunTime:0.0005s ]
+NOTIC: [8] Undefined index: id C:\demo\lublog\Application\Admin\Controller\IndexController.class.php 第 80 行.
+
+[ 2017-10-21T12:22:42+08:00 ] 127.0.0.1 /index.php/admin/Index/loginout
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001589s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002223s ]
+
+[ 2017-10-21T12:22:53+08:00 ] 127.0.0.1 /index.php/Admin/Index/checklogin
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001921s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002570s ]
+SQL: SHOW COLUMNS FROM `adminer` [ RunTime:0.0539s ]
+SQL: SELECT * FROM `adminer` WHERE ( adminer_name = 'admin'  ) LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [8] Undefined index: id C:\demo\lublog\Application\Admin\Controller\IndexController.class.php 第 80 行.
+
+[ 2017-10-21T13:18:18+08:00 ] 127.0.0.1 /index.php/Admin/Restaurant/index.html
+ERR: 无法加载控制器:Restaurant
+
+[ 2017-10-21T13:23:49+08:00 ] 127.0.0.1 /index.php/Admin/Restaurant/index.html
+ERR: 无法加载控制器:Restaurant
+
+[ 2017-10-21T13:51:55+08:00 ] 127.0.0.1 /index.php/Admin/Restaurant/index.html
+ERR: 无法加载控制器:Restaurant
+
+[ 2017-10-21T13:52:38+08:00 ] 127.0.0.1 /index.php/Admin/Restaurant/index.html
+ERR: 无法加载控制器:Restaurant
+

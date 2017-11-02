@@ -1,0 +1,22 @@
+<!-- 通用左侧列表开始 -->
+<div class="col-xs-6 col-sm-4 left" >
+	<div class="myinfo  visible-lg">
+		<img src="__PUBLIC__/images/headpic2.jpg" width="120" class="radius-circle" /><br/>
+		<h4><span class="glyphicon glyphicon-user"></span>姓名:{$masterInfo.mastname}</h4>
+		<h4><span class="glyphicon glyphicon-fire"></span>爱好：{$masterInfo.hobbys}</h4>
+		<h4><span class="glyphicon glyphicon-plane"></span>微信：{$masterInfo.wechat}</h4>
+		<h4><span class="glyphicon glyphicon-earphone"></span>电话：{$masterInfo.tel}</h4>
+		<h4><span class="glyphicon glyphicon-send"></span>邮箱：{$masterInfo.email}</h4>
+	</div>
+	<h4> <span class="glyphicon glyphicon-pencil"></span><b>推荐</b></h4>
+	<div class="list-group">
+		<volist name='hotart' id='row'>
+		<li href="#" class="list-group-item ">
+			<a href="{:U('Article/showArt',array('art_id'=>$row['art_id']))}"><p><span class="glyphicon glyphicon-list"></span>{$row.title|substr=0,41}</p>...</a>
+			<span class="badge">hot！！</span>
+		</li>
+		</volist>
+		<!-- <div class="fresh"><a href=""><span class="glyphicon glyphicon-refresh"></span>刷新</a></div> -->
+	</div>
+</div><!--/.sidebar-offcanvas-->
+<!-- 通用左侧列表结束 -->

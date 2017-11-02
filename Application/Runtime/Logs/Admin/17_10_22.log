@@ -1,0 +1,218 @@
+[ 2017-10-22T10:12:57+08:00 ] 127.0.0.1 /index.php/Admin/Index/checklogin
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001609s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002209s ]
+SQL: SHOW COLUMNS FROM `adminer` [ RunTime:0.0296s ]
+SQL: SELECT * FROM `adminer` WHERE ( adminer_name = 'admin'  ) LIMIT 1   [ RunTime:0.0005s ]
+NOTIC: [8] Undefined index: id C:\demo\lublog\Application\Admin\Controller\IndexController.class.php 第 80 行.
+
+[ 2017-10-22T10:15:21+08:00 ] 127.0.0.1 /index.php/Admin/Restaurant/index.html
+ERR: 无法加载控制器:Restaurant
+
+[ 2017-10-22T10:17:37+08:00 ] 127.0.0.1 /index.php/Admin/Restaurant/index.html
+ERR: 无法加载控制器:Restaurant
+
+[ 2017-10-22T10:20:07+08:00 ] 127.0.0.1 /index.php/Admin/Restaurant/index.html
+ERR: 无法加载控制器:Restaurant
+
+[ 2017-10-22T10:21:06+08:00 ] 127.0.0.1 /index.php/admin/Index/loginout
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002253s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003213s ]
+
+[ 2017-10-22T10:21:08+08:00 ] 127.0.0.1 /index.php/admin/admin/index/login
+ERR: 无法加载控制器:Admin
+
+[ 2017-10-22T10:23:20+08:00 ] 127.0.0.1 /index.php/admin/admin/index/login
+ERR: 无法加载控制器:Admin
+
+[ 2017-10-22T10:23:32+08:00 ] 127.0.0.1 /index.php/Admin/Index/checklogin
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000757s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001355s ]
+
+[ 2017-10-22T10:23:38+08:00 ] 127.0.0.1 /index.php/Admin/Index/checklogin
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000765s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001368s ]
+SQL: SHOW COLUMNS FROM `adminer` [ RunTime:0.1079s ]
+SQL: SELECT * FROM `adminer` WHERE ( adminer_name = 'admin'  ) LIMIT 1   [ RunTime:0.0004s ]
+NOTIC: [8] Undefined index: id C:\demo\lublog\Application\Admin\Controller\IndexController.class.php 第 80 行.
+
+[ 2017-10-22T10:25:03+08:00 ] 127.0.0.1 /index.php/admin/Index/loginout
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001322s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002144s ]
+
+[ 2017-10-22T10:25:11+08:00 ] 127.0.0.1 /index.php/Admin/Index/checklogin
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000777s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001286s ]
+SQL: SHOW COLUMNS FROM `adminer` [ RunTime:0.0155s ]
+SQL: SELECT * FROM `adminer` WHERE ( adminer_name = 'admin'  ) LIMIT 1   [ RunTime:0.0004s ]
+NOTIC: [8] Undefined index: id C:\demo\lublog\Application\Admin\Controller\IndexController.class.php 第 80 行.
+
+[ 2017-10-22T10:27:12+08:00 ] 127.0.0.1 /index.php/Admin/Index/checklogin
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002009s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002773s ]
+
+[ 2017-10-22T10:27:19+08:00 ] 127.0.0.1 /index.php/Admin/Index/checklogin
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001486s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002074s ]
+SQL: SHOW COLUMNS FROM `adminer` [ RunTime:0.0184s ]
+SQL: SELECT * FROM `adminer` WHERE ( adminer_name = 'admin'  ) LIMIT 1   [ RunTime:0.0004s ]
+NOTIC: [8] Undefined index: id C:\demo\lublog\Application\Admin\Controller\IndexController.class.php 第 80 行.
+
+[ 2017-10-22T10:29:28+08:00 ] 127.0.0.1 /index.php/Admin/Restaurant/index.html
+ERR: 无法加载控制器:Restaurant
+
+[ 2017-10-22T10:29:35+08:00 ] 127.0.0.1 /index.php/Admin/Restaurant/index.html
+ERR: 无法加载控制器:Restaurant
+
+[ 2017-10-22T10:30:17+08:00 ] 127.0.0.1 /index.php/admin/Index/loginout
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001580s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002238s ]
+
+[ 2017-10-22T10:30:22+08:00 ] 127.0.0.1 /index.php/Admin/Index/checklogin
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001483s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002103s ]
+SQL: SHOW COLUMNS FROM `adminer` [ RunTime:0.0057s ]
+SQL: SELECT * FROM `adminer` WHERE ( adminer_name = 'admin'  ) LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [8] Undefined index: id C:\demo\lublog\Application\Admin\Controller\IndexController.class.php 第 80 行.
+
+[ 2017-10-22T10:32:53+08:00 ] 127.0.0.1 /index.php/Admin/Moudle/index.html
+ERR: 无法加载控制器:Moudle
+
+[ 2017-10-22T10:38:22+08:00 ] 127.0.0.1 /index.php/Admin/Restaurant/index.html
+ERR: 无法加载控制器:Restaurant
+
+[ 2017-10-22T10:39:13+08:00 ] 127.0.0.1 /index.php/Admin/Restaurant/index.html
+ERR: 无法加载控制器:Restaurant
+
+[ 2017-10-22T10:42:01+08:00 ] 127.0.0.1 /index.php/Admin/Restaurant/index.html
+ERR: 无法加载控制器:Restaurant
+
+[ 2017-10-22T10:58:32+08:00 ] 127.0.0.1 /index.php/Admin/restaurant/index.html
+ERR: 无法加载控制器:Restaurant
+
+[ 2017-10-22T10:58:32+08:00 ] 127.0.0.1 /index.php/Admin/restaurant/index.html
+ERR: 无法加载控制器:Restaurant
+
+[ 2017-10-22T10:58:48+08:00 ] 127.0.0.1 /index.php/Admin/restaurant/index.html
+ERR: 无法加载控制器:Restaurant
+
+[ 2017-10-22T10:58:49+08:00 ] 127.0.0.1 /index.php/Admin/restaurant/index.html
+ERR: 无法加载控制器:Restaurant
+
+[ 2017-10-22T11:19:13+08:00 ] 127.0.0.1 /index.php/admin/:%7B'Index/myinfo'%7D
+ERR: 无法加载控制器::{'Index
+
+[ 2017-10-22T11:19:14+08:00 ] 127.0.0.1 /index.php/admin/:%7B'Index/myinfo'%7D
+ERR: 无法加载控制器::{'Index
+
+[ 2017-10-22T11:19:24+08:00 ] 127.0.0.1 /index.php/admin/:%7B'Index/myinfo'%7D
+ERR: 无法加载控制器::{'Index
+
+[ 2017-10-22T11:21:34+08:00 ] 127.0.0.1 /index.php/Admin/Index/checklogin
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001720s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002592s ]
+
+[ 2017-10-22T11:21:41+08:00 ] 127.0.0.1 /index.php/Admin/Index/checklogin
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001526s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002118s ]
+SQL: SHOW COLUMNS FROM `adminer` [ RunTime:0.0083s ]
+SQL: SELECT * FROM `adminer` WHERE ( adminer_name = 'admin'  ) LIMIT 1   [ RunTime:0.0004s ]
+NOTIC: [8] Undefined index: id C:\demo\lublog\Application\Admin\Controller\IndexController.class.php 第 80 行.
+
+[ 2017-10-22T11:24:10+08:00 ] 127.0.0.1 /index.php/admin/121
+ERR: 无法加载控制器:121
+
+[ 2017-10-22T11:24:11+08:00 ] 127.0.0.1 /index.php/admin/121
+ERR: 无法加载控制器:121
+
+[ 2017-10-22T11:24:12+08:00 ] 127.0.0.1 /index.php/admin/121
+ERR: 无法加载控制器:121
+
+[ 2017-10-22T12:46:04+08:00 ] 127.0.0.1 /index.php/Admin/Restaurant/index.html
+ERR: 无法加载控制器:Restaurant
+
+[ 2017-10-22T12:55:57+08:00 ] 127.0.0.1 /index.php/Admin/Restaurant/index.html
+ERR: 无法加载控制器:Restaurant
+
+[ 2017-10-22T13:04:06+08:00 ] 127.0.0.1 /index.php/Admin/Restaurant/index.html
+ERR: 无法加载控制器:Restaurant
+
+[ 2017-10-22T13:49:54+08:00 ] 127.0.0.1 /index.php/Admin/Restaurant/index.html
+ERR: 无法加载控制器:Restaurant
+
+[ 2017-10-22T14:32:14+08:00 ] 127.0.0.1 /index.php/Admin/Restaurant/index.html
+ERR: 无法加载控制器:Restaurant
+
+[ 2017-10-22T14:58:27+08:00 ] 127.0.0.1 /index.php/admin/Index/loginout
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001082s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002423s ]
+
+[ 2017-10-22T14:58:44+08:00 ] 127.0.0.1 /index.php/Admin/Index/checklogin
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000991s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.013345s ]
+SQL: SHOW COLUMNS FROM `adminer` [ RunTime:0.0067s ]
+SQL: SELECT * FROM `adminer` WHERE ( adminer_name = 'admin'  ) LIMIT 1   [ RunTime:0.0140s ]
+NOTIC: [8] Undefined index: id C:\demo\lublog\Application\Admin\Controller\IndexController.class.php 第 80 行.
+
+[ 2017-10-22T16:20:58+08:00 ] 127.0.0.1 /index.php/Admin/Index/myinfo.html
+ERR: Think\Controller:save方法不存在！
+
+[ 2017-10-22T16:45:04+08:00 ] 127.0.0.1 /index.php/Admin/index/U('Index/index')
+ERR: 非法操作:U('Index
+
+[ 2017-10-22T17:40:50+08:00 ] 127.0.0.1 /index.php/Admin/Index/1.html
+ERR: 非法操作:1
+
+[ 2017-10-22T18:04:26+08:00 ] 127.0.0.1 /index.php/Admin/Index/admin/index/login
+ERR: 非法操作:admin
+
+[ 2017-10-22T18:04:57+08:00 ] 127.0.0.1 /index.php/Admin/Index/checklogin
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000753s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001345s ]
+SQL: SHOW COLUMNS FROM `adminer` [ RunTime:0.0055s ]
+SQL: SELECT * FROM `adminer` WHERE ( adminer_name = 'admin'  ) LIMIT 1   [ RunTime:0.0169s ]
+NOTIC: [8] Undefined index: id C:\demo\lublog\Application\Admin\Controller\IndexController.class.php 第 80 行.
+
+[ 2017-10-22T19:58:48+08:00 ] 127.0.0.1 /index.php/admin/Joke/category
+ERR: 非法操作:category
+
+[ 2017-10-22T21:20:31+08:00 ] 127.0.0.1 /index.php/admin/admin/index/login
+ERR: 无法加载控制器:Admin
+
+[ 2017-10-22T21:20:51+08:00 ] 127.0.0.1 /index.php/Admin/Index/checklogin
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000740s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001219s ]
+
+[ 2017-10-22T21:20:58+08:00 ] 127.0.0.1 /index.php/Admin/Index/checklogin
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001520s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002104s ]
+
+[ 2017-10-22T21:21:04+08:00 ] 127.0.0.1 /index.php/Admin/Index/checklogin
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000861s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.023472s ]
+
+[ 2017-10-22T21:21:12+08:00 ] 127.0.0.1 /index.php/Admin/Index/checklogin
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000765s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001251s ]
+SQL: SHOW COLUMNS FROM `adminer` [ RunTime:0.0056s ]
+SQL: SELECT * FROM `adminer` WHERE ( adminer_name = 'admin'  ) LIMIT 1   [ RunTime:0.0005s ]
+NOTIC: [8] Undefined index: id C:\demo\lublog\Application\Admin\Controller\IndexController.class.php 第 80 行.
+

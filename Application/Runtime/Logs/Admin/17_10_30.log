@@ -1,0 +1,106 @@
+[ 2017-10-30T09:42:15+08:00 ] 127.0.0.1 /index.php/Admin/Comment/index.html
+ERR: 无法加载控制器:Comment
+
+[ 2017-10-30T09:43:52+08:00 ] 127.0.0.1 /index.php/Admin/Article/add.html
+ERR: Think\Model:saveDate方法不存在！
+
+[ 2017-10-30T13:09:13+08:00 ] 127.0.0.1 /index.php/Admin/Article/index.php?p=Back&c=Article&a=delAll
+ERR: 非法操作:index.php
+
+[ 2017-10-30T13:10:16+08:00 ] 127.0.0.1 /index.php/Admin/Article/index.php?p=Back&c=Article&a=delAll
+ERR: 非法操作:index.php
+
+[ 2017-10-30T14:50:41+08:00 ] 127.0.0.1 /index.php/Admin/Category/index.php?p=Back&c=Category&a=delAll
+ERR: 非法操作:index.php
+
+[ 2017-10-30T15:23:52+08:00 ] 127.0.0.1 /index.php/Admin/Article/__ADMIN__/ckfinder/ckfinder.html?Type=Images&CKEditor=ckeditor&CKEditorFuncNum=1&langCode=zh-cn
+ERR: 非法操作:__ADMIN__
+
+[ 2017-10-30T15:24:04+08:00 ] 127.0.0.1 /index.php/Admin/Article/__ADMIN__/ckfinder/ckfinder.html?Type=Images&CKEditor=ckeditor&CKEditorFuncNum=1&langCode=zh-cn
+ERR: 非法操作:__ADMIN__
+
+[ 2017-10-30T15:24:19+08:00 ] 127.0.0.1 /index.php/Admin/Article/__ADMIN__/ckfinder/ckfinder.html?Type=Images&CKEditor=ckeditor&CKEditorFuncNum=1&langCode=zh-cn
+ERR: 非法操作:__ADMIN__
+
+[ 2017-10-30T15:25:27+08:00 ] 127.0.0.1 /index.php/Admin/Article/__ADMIN__/ckfinder/ckfinder.html?Type=Images&CKEditor=ckeditor&CKEditorFuncNum=1&langCode=zh-cn
+ERR: 非法操作:__ADMIN__
+
+[ 2017-10-30T16:50:57+08:00 ] 127.0.0.1 /index.php/Admin/Article/recycle.html
+ERR: 模板不存在:./Application/Admin/View/Article/recycle.html
+
+[ 2017-10-30T17:42:22+08:00 ] 127.0.0.1 /index.php/Admin/Article/realDelmany.html%7D
+ERR: 非法操作:realDelmany.html}
+
+[ 2017-10-30T17:43:35+08:00 ] 127.0.0.1 /index.php/Admin/Article/realDelmany.html%7D
+ERR: 非法操作:realDelmany.html}
+
+[ 2017-10-30T17:44:36+08:00 ] 127.0.0.1 /index.php/Admin/Article/realDelmany.html%7D
+ERR: 非法操作:realDelmany.html}
+
+[ 2017-10-30T17:45:40+08:00 ] 127.0.0.1 /index.php/Admin/Article/realDelmany.html%7D
+ERR: 非法操作:realDelmany.html}
+
+[ 2017-10-30T17:45:45+08:00 ] 127.0.0.1 /index.php/Admin/Article/realDelmany.html%7D
+ERR: 非法操作:realDelmany.html}
+
+[ 2017-10-30T17:45:53+08:00 ] 127.0.0.1 /index.php/Admin/Article/realDelmany.html%7D
+ERR: 非法操作:realDelmany.html}
+
+[ 2017-10-30T18:46:57+08:00 ] 127.0.0.1 /index.php/Admin/Comment/index.html
+ERR: 无法加载控制器:Comment
+
+[ 2017-10-30T18:48:58+08:00 ] 127.0.0.1 /index.php/Admin/Comment/index.html
+ERR: 无法加载控制器:Comment
+
+[ 2017-10-30T18:49:56+08:00 ] 127.0.0.1 /index.php/Admin/Article/edit.html
+ERR: 1146:Table 'lublog.edit' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `edit`
+
+[ 2017-10-30T19:08:15+08:00 ] 127.0.0.1 /index.php/Admin/Article/index.html
+ERR: 1146:Table 'lublog.cate_name' doesn't exist
+ [ SQL语句 ] : SELECT t1.*,t2.cate_name as cate_name FROM article as t1,cate_name as t2 WHERE ( t1.cate_id = t2.cate_id and is_del = "0" ) 
+
+[ 2017-10-30T21:12:16+08:00 ] 127.0.0.1 /index.php/Admin/Comment/index.html
+ERR: 无法加载控制器:Comment
+
+[ 2017-10-30T21:26:27+08:00 ] 127.0.0.1 /index.php/Admin/Index/checklogin
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001848s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.016882s ]
+
+[ 2017-10-30T21:26:34+08:00 ] 127.0.0.1 /index.php/Admin/Index/checklogin
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001681s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002550s ]
+SQL: SHOW COLUMNS FROM `adminer` [ RunTime:0.0539s ]
+SQL: SELECT * FROM `adminer` WHERE ( adminer_name = 'admin'  ) LIMIT 1   [ RunTime:0.0650s ]
+NOTIC: [8] Undefined index: id C:\demo\lublog\Application\Admin\Controller\IndexController.class.php 第 74 行.
+
+[ 2017-10-30T21:32:31+08:00 ] 127.0.0.1 /index.php/Admin/Index/checklogin
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001041s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001682s ]
+SQL: SHOW COLUMNS FROM `adminer` [ RunTime:0.0052s ]
+SQL: SELECT * FROM `adminer` WHERE ( adminer_name = 'admin'  ) LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [8] Undefined index: id C:\demo\lublog\Application\Admin\Controller\IndexController.class.php 第 74 行.
+
+[ 2017-10-30T21:32:48+08:00 ] 127.0.0.1 /index.php/admin/admin/index/login
+ERR: 无法加载控制器:Admin
+
+[ 2017-10-30T21:32:53+08:00 ] 127.0.0.1 /index.php/admin/admin/index/login
+ERR: 无法加载控制器:Admin
+
+[ 2017-10-30T21:41:17+08:00 ] 127.0.0.1 /index.php/admin/admin/index/login
+ERR: 无法加载控制器:Admin
+
+[ 2017-10-30T21:41:43+08:00 ] 127.0.0.1 /index.php/admin/admin/index/login
+ERR: 无法加载控制器:Admin
+
+[ 2017-10-30T21:41:57+08:00 ] 127.0.0.1 /index.php/Admin/Index/checklogin
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002050s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003001s ]
+SQL: SHOW COLUMNS FROM `adminer` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `adminer` WHERE ( adminer_name = 'admin'  ) LIMIT 1   [ RunTime:0.0005s ]
+NOTIC: [8] Undefined index: id C:\demo\lublog\Application\Admin\Controller\IndexController.class.php 第 75 行.
+

@@ -1,0 +1,17 @@
+[ 2017-11-01T09:11:46+08:00 ] 127.0.0.1 /index.php/admin/Joke/index
+ERR: 无法加载控制器:Joke
+
+[ 2017-11-01T09:28:07+08:00 ] 127.0.0.1 /index.php/Admin/Index/checklogin
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001545s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002133s ]
+SQL: SHOW COLUMNS FROM `adminer` [ RunTime:0.1064s ]
+SQL: SELECT * FROM `adminer` WHERE ( adminer_name = 'admin'  ) LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [8] Undefined index: id C:\demo\lublog\Application\Admin\Controller\IndexController.class.php 第 75 行.
+
+[ 2017-11-01T17:46:20+08:00 ] 127.0.0.1 /index.php/Admin/Comment/index.html
+ERR: 无法加载控制器:Comment
+
+[ 2017-11-01T20:30:51+08:00 ] 127.0.0.1 /index.php/Admin/Comment/index.html
+ERR: 无法加载控制器:Comment
+

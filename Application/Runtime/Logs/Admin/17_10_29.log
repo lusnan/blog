@@ -1,0 +1,98 @@
+[ 2017-10-29T08:02:40+08:00 ] 127.0.0.1 /index.php/admin/Joke/index
+ERR: 1146:Table 'lublog.joke' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `joke`
+
+[ 2017-10-29T08:12:49+08:00 ] 127.0.0.1 /index.php/admin/Joke/index
+ERR: 1146:Table 'lublog.joke' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `joke`
+
+[ 2017-10-29T09:18:23+08:00 ] 127.0.0.1 /index.php/Admin/Index/admin/index/login
+ERR: 非法操作:admin
+
+[ 2017-10-29T09:18:55+08:00 ] 127.0.0.1 /index.php/Admin/Index/admin/index/login
+ERR: 非法操作:admin
+
+[ 2017-10-29T09:18:55+08:00 ] 127.0.0.1 /index.php/Admin/Index/admin/index/login
+ERR: 非法操作:admin
+
+[ 2017-10-29T09:18:55+08:00 ] 127.0.0.1 /index.php/Admin/Index/admin/index/login
+ERR: 非法操作:admin
+
+[ 2017-10-29T09:18:57+08:00 ] 127.0.0.1 /index.php/Admin/Index/admin/index/login
+ERR: 非法操作:admin
+
+[ 2017-10-29T09:18:58+08:00 ] 127.0.0.1 /index.php/Admin/Index/admin/index/login
+ERR: 非法操作:admin
+
+[ 2017-10-29T09:32:55+08:00 ] 127.0.0.1 /index.php/Admin/index.php?p=Back&c=Category&a=index
+ERR: 无法加载控制器:Index.php
+
+[ 2017-10-29T09:42:00+08:00 ] 127.0.0.1 /index.php/Admin/index.php?p=Back&c=Category&a=index
+ERR: 无法加载控制器:Index.php
+
+[ 2017-10-29T09:42:39+08:00 ] 127.0.0.1 /index.php/Admin/index.php?p=Back&c=Admin&a=logout
+ERR: 无法加载控制器:Index.php
+
+[ 2017-10-29T10:25:27+08:00 ] 127.0.0.1 /index.php/Admin/Catgory/index.html
+ERR: 无法加载控制器:Catgory
+
+[ 2017-10-29T10:41:32+08:00 ] 127.0.0.1 /index.php/Admin/Category/index.php?p=Back&c=Category&a=add
+ERR: 非法操作:index.php
+
+[ 2017-10-29T10:43:06+08:00 ] 127.0.0.1 /index.php/Admin/Catgory/add.html
+ERR: 无法加载控制器:Catgory
+
+[ 2017-10-29T10:44:57+08:00 ] 127.0.0.1 /index.php/Admin/Category/index.php?p=Back&c=Category&a=edit&cate_id=
+ERR: 非法操作:index.php
+
+[ 2017-10-29T11:01:21+08:00 ] 127.0.0.1 /index.php/Admin/Category/index.php?p=Back&c=Category&a=edit&cate_id=
+ERR: 非法操作:index.php
+
+[ 2017-10-29T11:01:26+08:00 ] 127.0.0.1 /index.php/Admin/Category/index.php?p=Back&c=Category&a=edit&cate_id=
+ERR: 非法操作:index.php
+
+[ 2017-10-29T11:06:36+08:00 ] 127.0.0.1 /index.php/Admin/Category/delete/cate_id/cate_id.html
+ERR: 非法操作:delete
+
+[ 2017-10-29T11:30:19+08:00 ] 127.0.0.1 /index.php/Admin/Category/editlist/cate_id/cate_id.html
+ERR: 模板不存在:./Application/Admin/View/Category/editlist.html
+
+[ 2017-10-29T13:17:15+08:00 ] 127.0.0.1 /index.php/Admin/Category/add.html
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'd'f' ) LIMIT 1' at line 1
+ [ SQL语句 ] : SELECT * FROM `category` WHERE ( cate_name = 's'd'f' ) LIMIT 1  
+
+[ 2017-10-29T13:22:30+08:00 ] 127.0.0.1 /index.php/Admin/Category/add.html
+ERR: 1054:Unknown column 'PHP' in 'where clause'
+ [ SQL语句 ] : SELECT * FROM `category` WHERE ( cate_name = PHP ) LIMIT 1  
+
+[ 2017-10-29T13:55:24+08:00 ] 127.0.0.1 /index.php/Admin/Category/index.php/admin/category/editlist/cate_id/1
+ERR: 非法操作:index.php
+
+[ 2017-10-29T13:56:27+08:00 ] 127.0.0.1 /index.php/Admin/Category/index.php/admin/category/editlist/cate_id/1
+ERR: 非法操作:index.php
+
+[ 2017-10-29T15:10:18+08:00 ] 127.0.0.1 /index.php/Admin/Comment/index.html
+ERR: 无法加载控制器:Comment
+
+[ 2017-10-29T15:10:20+08:00 ] 127.0.0.1 /index.php/Admin/Article/index.html
+ERR: Think\Controller:didsplay方法不存在！
+
+[ 2017-10-29T15:10:24+08:00 ] 127.0.0.1 /index.php/Admin/Article/index.html
+ERR: Think\Controller:didsplay方法不存在！
+
+[ 2017-10-29T15:32:51+08:00 ] 127.0.0.1 /index.php/Admin/Article/addlist.html
+ERR: XML标签语法错误 : name=$cateinfo id='row'
+
+[ 2017-10-29T15:42:50+08:00 ] 127.0.0.1 /index.php/Admin/Comment/index.html
+ERR: 无法加载控制器:Comment
+
+[ 2017-10-29T15:49:43+08:00 ] 127.0.0.1 /index.php/Admin/Comment/index.html
+ERR: 无法加载控制器:Comment
+
+[ 2017-10-29T16:46:40+08:00 ] 127.0.0.1 /index.php/Admin/Article/add.html
+ERR: 1054:Unknown column 'art_name' in 'where clause'
+ [ SQL语句 ] : SELECT * FROM `article` WHERE ( art_name = '' ) LIMIT 1  
+
+[ 2017-10-29T17:20:18+08:00 ] 127.0.0.1 /index.php/Admin/Article/index.php?p=Back&c=Article&a=delAll
+ERR: 非法操作:index.php
+

@@ -1,0 +1,63 @@
+<include file='Public/public'/>
+<div class="admin">
+  <div class="tab">
+    <div class="tab-head"> <strong>站长管理</strong>
+      <ul class="tab-nav">
+        <li class="active"><a href="#tab-set">站长信息</a></li>
+      </ul>
+    </div>
+    <div class="tab-body"> <br />
+      <div class="tab-panel active" id="tab-set">
+        <form method="post" class="form-x" action="{:U('Master/edit')}" >
+          <div class="form-group">
+            <div class="label">
+              <label for="sitename">姓名</label>
+            </div>
+            <div class="field">
+              <input type="text" class="input" id="nickname" name="nickname" size="50" placeholder="站长姓名" data-validate="required:请填写站长姓名" value="{$masterInfo.mastname}" />
+            </div>
+          </div>
+          
+          <div class="form-group">
+            <div class="label">
+              <label for="siteurl">爱好</label>
+            </div>
+            <div class="field">
+              <input type="text" class="input" id="job" name="job" size="50" placeholder="请填写您的爱好" data-validate="required:请填写您的爱好" value="{$masterInfo.hobbys}" />
+            </div>
+          </div>
+          <div class="form-group">
+            <div class="label">
+              <label for="siteurl">微信</label>
+            </div>
+            <div class="field">
+              <input type="text" class="input" id="address" name="home" size="50" placeholder="请填写您的微信" data-validate="required:请填写您的微信" value="{$masterInfo.wechat}" />
+            </div>
+          </div>
+          <div class="form-group">
+            <div class="label">
+              <label for="siteurl">电话</label>
+            </div>
+            <div class="field">
+              <input type="text" class="input" id="tel" name="tel" size="50" placeholder="请填写您的电话" data-validate="required:请填写您的电话" value="{$masterInfo.tel}" />
+            </div>
+          </div>
+          <div class="form-group">
+            <div class="label">
+              <label for="siteurl">邮箱</label>
+            </div>
+            <div class="field">
+              <input type="text" class="input" id="email" name="email" size="50" placeholder="请填写您的邮箱" data-validate="required:请填写您的邮箱" value="{$masterInfo.email}" />
+            </div>
+          </div>
+          <div class="form-button">
+            <button name="submit" class="button bg-main" type="submit">提交</button>
+          </div>
+          <input type='hidden' name='id' value="{$masterInfo.id}">
+        </form>
+      </div>
+    </div>
+  </div>
+    <div style='height:40px; border-bottom:1px #DDD solid'></div>
+    <p class="text-right text-gray" style="float:right">我的博客</p>
+</div>

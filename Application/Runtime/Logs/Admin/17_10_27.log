@@ -1,0 +1,8 @@
+[ 2017-10-27T18:57:57+08:00 ] 127.0.0.1 /index.php/Admin/Index/checklogin
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000783s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001419s ]
+SQL: SHOW COLUMNS FROM `adminer` [ RunTime:0.0170s ]
+SQL: SELECT * FROM `adminer` WHERE ( adminer_name = 'admin'  ) LIMIT 1   [ RunTime:0.0379s ]
+NOTIC: [8] Undefined index: id C:\demo\lublog\Application\Admin\Controller\IndexController.class.php 第 74 行.
+

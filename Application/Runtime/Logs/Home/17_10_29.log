@@ -1,0 +1,15 @@
+[ 2017-10-29T08:12:58+08:00 ] 127.0.0.1 /index.php/Home/Index/$cat.html
+ERR: 非法操作:$cat
+
+[ 2017-10-29T08:13:18+08:00 ] 127.0.0.1 /index.php/Home/Index/$cat.html
+ERR: 非法操作:$cat
+
+[ 2017-10-29T08:14:17+08:00 ] 127.0.0.1 /index.php/Home/Index/$cat.html
+ERR: 非法操作:$cat
+
+[ 2017-10-29T08:39:37+08:00 ] 127.0.0.1 /index.php/Home/Index/$cat.html
+ERR: 非法操作:$cat
+
+[ 2017-10-29T08:40:34+08:00 ] 127.0.0.1 /index.php/Home/Index/$cat.html
+ERR: 非法操作:$cat
+

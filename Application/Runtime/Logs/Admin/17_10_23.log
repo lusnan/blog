@@ -1,0 +1,29 @@
+[ 2017-10-23T13:49:20+08:00 ] 127.0.0.1 /index.php/Admin/Index/checklogin
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000820s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001484s ]
+SQL: SHOW COLUMNS FROM `adminer` [ RunTime:0.2519s ]
+SQL: SELECT * FROM `adminer` WHERE ( adminer_name = 'admin'  ) LIMIT 1   [ RunTime:0.0822s ]
+NOTIC: [8] Undefined index: id C:\demo\lublog\Application\Admin\Controller\IndexController.class.php 第 80 行.
+
+[ 2017-10-23T14:31:36+08:00 ] 127.0.0.1 /index.php/Admin/Index/checklogin
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001009s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001809s ]
+SQL: SHOW COLUMNS FROM `adminer` [ RunTime:0.0054s ]
+SQL: SELECT * FROM `adminer` WHERE ( adminer_name = 'admin'  ) LIMIT 1   [ RunTime:0.0005s ]
+NOTIC: [8] Undefined index: id C:\demo\lublog\Application\Admin\Controller\IndexController.class.php 第 80 行.
+
+[ 2017-10-23T17:52:51+08:00 ] 127.0.0.1 /index.php/Admin/Joke/Joke/index
+ERR: 非法操作:Joke
+
+[ 2017-10-23T17:54:08+08:00 ] 127.0.0.1 /index.php/Admin/Joke/Joke/index
+ERR: 非法操作:Joke
+
+[ 2017-10-23T21:06:37+08:00 ] 127.0.0.1 /index.php/Admin/Joke/delete/head/asd.html
+ERR: 1054:Unknown column '$head' in 'where clause'
+ [ SQL语句 ] : DELETE FROM `joke` WHERE ( head = $head )
+
+[ 2017-10-23T21:21:41+08:00 ] 127.0.0.1 /index.php/Admin/Admin-Joke/index.html
+ERR: 无法加载控制器:Admin-Joke
+
